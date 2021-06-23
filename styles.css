@@ -2,9 +2,9 @@
   position: relative;
   text-align: center;
   display: block;
-  max-height: 100%;
   max-width: 100%;
-  margin: 0 auto 0;
+  height: auto;
+  margin: auto;
 
 }
 .image-button {
