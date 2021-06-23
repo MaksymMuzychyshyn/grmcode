@@ -1,9 +1,8 @@
-body {
-    display: flex;
-    justify-content: center;
-}
+
 .image-container {
   position: relative;
+  display: flex;
+  justify-content: center;
   
 }
 .image-button {
