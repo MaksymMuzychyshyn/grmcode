@@ -16,6 +16,7 @@
     position: absolute;
     top: calc(50% - 25px);
     left: calc(50% - 100px);
+    line-height: 50px;
 }
 .image-button:hover {
     opacity: 1;
@@ -23,4 +24,5 @@
 
 .image {
     max-width: 100%;
+    
 }
