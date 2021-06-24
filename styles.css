@@ -15,16 +15,13 @@ body {
   background-color: aqua;
   width: 300px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  padding: 16px;
 }
 html {
   font-size: 16px;
   font-family: monospace;
 }
-.form-control {
-  margin-left: 16px;
-  margin-right: 16px;
-  
-} 
+
 .form-title {
   text-transform: uppercase;
   display: flex;
@@ -42,12 +39,13 @@ html {
 
 .submit-button {
   background-color: #ff7f50;
-  margin: 16px;
+  margin-top: 16px;
   width: 100%;
   border-radius: 4px;
   text-transform: uppercase;
   color: white;
   outline: none;
+  height: 32px;
 }
 .form-input:invalid {
   border: 3px solid #ff0000;
