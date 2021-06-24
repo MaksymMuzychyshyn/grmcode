@@ -23,29 +23,27 @@ html {
 .form-control {
   margin-left: 16px;
   margin-right: 16px;
-}
+  
+} 
 .form-title {
   text-transform: uppercase;
   display: flex;
   justify-content: center;
 }
 .form-input {
-  /* height: 32px; */
   border-radius: 4px;
   border: 1px solid #808080;
   padding: 4px;
   outline: none;
-  width: 96%;
-  /* padding: 1%; */
+  width: 100%;
   margin-bottom: 8px;
   margin-top: 4px;
 }
 
 .submit-button {
-  height: 32px;
   background-color: #ff7f50;
   margin: 16px;
-  width: 89%;
+  width: 100%;
   border-radius: 4px;
   text-transform: uppercase;
   color: white;
