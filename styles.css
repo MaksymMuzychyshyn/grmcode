@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 table {
   width: 500px;
@@ -15,14 +17,15 @@ th {
 }
 td, th {
   text-align: right;
-  line-height: 40px;
+  padding: 4px;
+  height: 40px;
 }
 div {
   overflow-x: auto;
 }
-tr {
-  padding: 4px;
-}
+/* tr {
+  line-height: 40px;
+} */
 th {
   background-color: aqua;
 }
