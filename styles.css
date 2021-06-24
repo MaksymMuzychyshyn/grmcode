@@ -1,6 +1,12 @@
 .form-control {
-  margin: 16px;
+  margin-left: 32px;
+  margin-top: 8px;
 }
-.choose-gender {
-  margin: 16px;
+.language {
+  margin-left: 32px;
+  margin-top: 8px;
+}
+.form-controll {
+  margin-left: 32px;
+  margin-top: 32px;
 }
