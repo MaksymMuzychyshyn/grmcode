@@ -1,7 +1,7 @@
-.form-control, .languages {
-margin-left: 32px;
+form {
+margin: 32px;
 
 }
-input, select, textarea {
+.form-control {
   margin: 8px;
 }
