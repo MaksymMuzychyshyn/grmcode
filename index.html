@@ -25,16 +25,19 @@
         }
         .spinner-text {
             animation: blinking 2s;
-            animation-direction: reverse;
+            animation-duration: 2s;
+            animation-iteration-count:infinite;
         }
         .rect {
             width: 10px;
             height: 4px;
             border-radius: 4px;
             background-color: black;
-            animation: moving 2s;
-            animation: blinking 2s ;
+            animation: blinking 2s;
+            animation-duration: 2s;
+            animation-iteration-count:infinite;
         }
+
       @keyframes moving {
         from {
           left: 0;
