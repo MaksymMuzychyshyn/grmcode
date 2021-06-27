@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    animation: moving 2s;
+    animation: ease 2s;
     animation-fill-mode: both;
   }
    html {
@@ -29,7 +29,7 @@
        text-transform: uppercase;
    }
   
-  @keyframes moving {
+  @keyframes ease {
     0% {
     top: 0px;
     
