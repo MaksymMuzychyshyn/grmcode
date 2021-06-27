@@ -6,16 +6,18 @@
     font-size: 14px;
     font-weight: 700;
 }
-  .block {
+  body {
     display: flex;
     justify-content: center;
     position: relative;
   }
-  .modal-content {
+  .block {
     position: absolute;
     height: 100px;
     width: 250px;
     border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
     background-color: coral;
     display: flex;
     justify-content: center;
@@ -25,10 +27,6 @@
     animation-fill-mode: both;
     animation-timing-function: ease;
   }
-   .text {
-       color: white;
-       text-transform: uppercase;
-   }
   
   @keyframes ease {
     from {
