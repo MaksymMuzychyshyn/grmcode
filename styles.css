@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
   }
-  body {
+  .modal-content {
     display: flex;
     justify-content: center;
     position: relative;
   }
-  .container {
+  .modal {
     position: absolute;
     height: 100px;
     width: 250px;
@@ -15,20 +15,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    color: white;
-    text-transform: uppercase;
+    position: absolute;
     animation: moving 2s;
+    animation-fill-mode: both;
   }
+   html {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+  }
+   .text {
+       color: white;
+       text-transform: uppercase;
+   }
   
   @keyframes moving {
-    from {
-    top: 500px;
+    0% {
+    top: 0px;
+    
     }
-    to {
-      top: calc(50vh-50px);
+    100% {
+      top: 300px;
+
     }
   }
   
