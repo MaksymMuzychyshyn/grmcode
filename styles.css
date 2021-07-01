@@ -1,9 +1,43 @@
-main {
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.header {
+  height: 3em;
+  padding: 1em;
+  background-color: #eee;
+}
+.icon {
+  font-size: 2em;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+  cursor: pointer;
   display: flex;
+  justify-content: center;
 }
-picture {
-  margin: auto;
+.navigation {
+  padding: 0;
+  width: 20vw;
+  padding: 0.5em;
 }
-img {
-  max-width: 100%;
+.nav-list-item {
+  background-color: #808080;
+  color: white;
+  height: 2em;
+  margin-bottom: 0.5em;
+  list-style-type: none;
+}
+.nav-list-link {
+  color: white;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-decoration: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
