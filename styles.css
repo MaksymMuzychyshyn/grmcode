@@ -18,9 +18,6 @@ body {
   justify-content: center;
   background-image: linear-gradient(60deg, red, orange);
 }
-main {
-  display: flex;
-}
 picture {
   margin: auto;
 }
@@ -30,6 +27,7 @@ img {
 .main {
   display: flex;
   height: 100%;
+  flex-direction: column;
 }
 .navigation {
   width: 20%;
@@ -98,7 +96,13 @@ img {
   }
 
 }
-@media screen and (min-width:600px) and (max-width: 900px) and (orientation: portrait) {
+@media screen and (min-width:600px) and (max-width: 900px) {
+  .column {
+    display: flex;
+  }
+  .navigation {
+    width: 20%;
+  }
   .section {
     width: 80%;
   }
