@@ -112,7 +112,7 @@ img {
   }
 }
 @media screen and (min-width:900px) {
-  .navigation .section .news {
+  .main {
     display: flex;
   }
   .navigation {
@@ -125,3 +125,4 @@ img {
     width: 20%;
   }
 }
+
