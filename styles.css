@@ -41,7 +41,7 @@ img {
 .nav-list-item {
   list-style-type: none;
   height: 2em;
-  background-color:#808080;
+  background-color: #808080;
   line-height: 2em;
   color: white;
   margin-bottom: 0.5em;
@@ -88,15 +88,18 @@ img {
   display: flex;
   justify-content: center;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
   .main {
-    flex: 1;
     display: flex;
     flex-direction: column;
   }
+  .navigation, .section, .news {
+    width: 100%;
+  }
+
 }
-@media screen and (max-width: 900px) and (orientation: portrait) {
-   .section {
-     width: 80%;
-   }
+@media screen and (min-width:600px) and (max-width: 900px) and (orientation: portrait) {
+  .section {
+    width: 80%;
+  }
 }
