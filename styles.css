@@ -58,7 +58,6 @@ img {
 }
 .section {
   padding: 0.5em;
-  /* display: flex; */
   width: 60%;
   font-size: 1.25em;
   flex-direction: column;
@@ -91,12 +90,13 @@ img {
 }
 @media screen and (max-width: 600px) {
   .main {
+    flex: 1;
+    display: flex;
     flex-direction: column;
-    width: 100%;
   }
 }
 @media screen and (max-width: 900px) and (orientation: portrait) {
-   .navigation .news {
-     flex-direction: column;
+   .section {
+     width: 80%;
    }
 }
