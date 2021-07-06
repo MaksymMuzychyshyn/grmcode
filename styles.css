@@ -25,11 +25,6 @@ body {
 img {
   max-width: 100%;
 }
-.column {
-  display: flex;
-  height: 100%;
-  flex-direction: row;
-}
 .main {
   display: flex;
   height: 100%;
@@ -117,8 +112,9 @@ img {
   }
 }
 @media screen and (min-width:900px) {
-  .main {
+  .column {
     display: flex;
+    height: 100%;
     flex-direction: row;
   }
   .navigation {
