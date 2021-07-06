@@ -90,6 +90,7 @@ img {
 @media screen and (min-width:600px) and (max-width: 899px) {
   .tag {
     display: flex;
+    flex-direction: row;
   }
   .navigation {
     width: 20%;
@@ -104,6 +105,7 @@ img {
 @media screen and (min-width:900px) {
   main, .tag {
     display: flex;
+    flex-direction: row;
   }
   .tag {
     width: 80%;
