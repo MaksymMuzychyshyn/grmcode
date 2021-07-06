@@ -25,14 +25,13 @@ body {
 img {
   max-width: 100%;
 }
-main {
+.tag {
   display: flex;
-  height: 100%;
   flex-direction: column;
 }
 .navigation {
-  width: 20%;
   padding: 0.5em;
+  width: 100%;
 }
 .nav-list {
   padding: 0;
@@ -57,9 +56,9 @@ main {
 }
 .section {
   padding: 0.5em;
-  width: 60%;
   font-size: 1.25em;
   flex-direction: column;
+  width: 100%;
 }
 .section__header {
   text-align: center;
@@ -78,8 +77,8 @@ main {
   font-size: 1.125em;
 }
 .news {
-  width: 20%;
   padding: 0.5em;
+  width: 100%;
 }
 .footer {
   background-color: #e5e5e5;
@@ -87,18 +86,9 @@ main {
   display: flex;
   justify-content: center;
 }
-@media screen and (max-width: 599px) {
-  .main {
-    display: flex;
-    flex-direction: column;
-  }
-  .navigation, .section, .news {
-    width: 100%;
-  }
 
-}
 @media screen and (min-width:600px) and (max-width: 899px) {
-  .column {
+  .tag {
     display: flex;
   }
   .navigation {
@@ -112,22 +102,18 @@ main {
   }
 }
 @media screen and (min-width:900px) {
-  main {
+  main, .tag {
     display: flex;
-    flex-direction: row;
   }
-  .column {
-    display: flex;
-    flex-direction: row;
-  }
-  .navigation {
-    width: 20%;
-  }
-  .section {
-    width: 60%;
+  .tag {
+    width: 80%;
   }
   .news {
     width: 20%;
   }
+  .navigation {
+    width: 20vw;
+  }
 }
+
 
