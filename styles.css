@@ -114,7 +114,6 @@ img {
 @media screen and (min-width:900px) {
   .column {
     display: flex;
-    height: 100%;
     flex-direction: row;
   }
   .block {
