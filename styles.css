@@ -39,9 +39,9 @@ span {
   .content {
     display: flex;
   }
-  .products {
-    flex-grow: 2;
-  }
+ .products {
+   flex-grow: 2;
+ }
 
 }
 
